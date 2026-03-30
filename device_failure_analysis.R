@@ -1,7 +1,7 @@
-# Research Question:
+## Research Question:
 # What are the most common reasons medical devices fail, and how might these failures impact users?
 
-# Objective:
+## Objective:
 # To analyze patterns in device failures and propose design improvements that reduce negative user impact.
 
 library(dplyr)
@@ -62,7 +62,7 @@ device_causes_clean <- device_causes_clean %>%
     TRUE ~ "Other"
   ))
 
-# ounts how often each simplified cause category appears and ranks them from most to least common.
+# Counts how often each simplified cause category appears and ranks them from most to least common.
 
 device_causes_clean %>%
   count(cause_simple, sort = TRUE)
