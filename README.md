@@ -5,7 +5,7 @@ This project looks at medical device failures and how design impacts usability, 
 Which types of medical device failures are most common, and how can design improvements reduce their impact on users?
 
 # What I Did
-I used a dataset of reported medical device failures, including causes and event details. I cleaned and simplified the data to focus on patterns in why devices fail. I grouped failure causes into categories (design, material, and process); looked at which types of failures happen the most; and then interpreted how these failures affect real users. Lastly, I focused on accessibility and usability issues. 
+I used a dataset [Faulty Medical Devices - Global Dataset](https://www.kaggle.com/datasets/vladimirmijatovic/faulty-medical-devices-global-dataset?resource=download) of reported medical device failures, including causes and event details. I cleaned and simplified the data to focus on patterns in why devices fail. I grouped failure causes into categories (design, material, and process); looked at which types of failures happen the most; and then interpreted how these failures affect real users. Lastly, I focused on accessibility and usability issues. 
 
 # Key Findings
 Design-related issues were one of the most common causes of failure. Many failures are connected to how users physically interact with devices. Users with motor impairments can have more difficulty using these devices.
@@ -17,7 +17,7 @@ Design issues can make devices harder to hold, control, and use correctly. This 
 
 # Design Development & Inspiration
 
-I looked at existing accessibility tools like adaptive writing grips and accessibility-focused makeup products. These designs focus on grip, stability, and ease of use, which influenced how I approached this redesign. I redesigned a reusable insulin pen to make it easier to hold and use.
+I looked at existing accessibility tools like [adaptive writing grips](https://askjan.org/solutions/Writing-Aids.cfm) and [accessibility-focused makeup products](https://tiltbeauty.com/). These designs focus on grip, stability, and ease of use, which influenced how I approached this redesign for a reusable insulin pen to make it easier to hold and use.
 
 # The design includes
 
@@ -36,6 +36,6 @@ The added grip and materials may make the device slightly bigger and more expens
 This project shows how data can be used to identify usability issues in medical devices and translate them into design improvements. Focusing on accessibility highlights how small design changes can make devices easier and more reliable to use.
 
 # Tools Used
-R / Posit Cloud
-tidyverse
-SketchUp
+- R / Posit Cloud
+- tidyverse
+- SketchUp
